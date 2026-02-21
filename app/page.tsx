@@ -52,8 +52,8 @@ export default function Home() {
               角色介紹
             </h2>
             <p className="text-gray-400 leading-relaxed">
-              主打夜系沉浸氛圍與深夜陪伴感，
-              在安靜的時刻與觀眾建立情緒連結。
+              主打夜系沉浸氛圍與非常吵鬧，
+              與觀眾建立情緒連結。
             </p>
           </div>
         </section>
@@ -65,7 +65,7 @@ export default function Home() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {["遊戲實況", "深夜雜談", "歌回"].map((item, index) => (
+            {["遊戲實況", "雜談", "歌回"].map((item, index) => (
               <motion.div
                 key={item}
                 initial={{ opacity: 0, y: 40 }}
@@ -87,10 +87,10 @@ export default function Home() {
         {/* 吉娃娃梗 */}
         <section className="bg-gray-900 rounded-2xl p-12 text-center shadow-2xl space-y-6">
           <h2 className="text-3xl font-semibold text-purple-300">
-            🐶 吉娃娃傳說
+            🐶 吉娃娃
           </h2>
           <p className="text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            粉絲之間流傳的可愛暱稱，
+            粉絲之間流傳的智障表情，
             代表社群的幽默與凝聚力。
           </p>
         </section>
