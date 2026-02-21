@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center text-center px-6">
@@ -6,14 +8,15 @@ export default function Home() {
       </h1>
 
       <p className="text-lg text-gray-400 mb-8 max-w-xl">
-        Welcome to my official website.  
-        Built with Next.js + Tailwind + Vercel.
+        Welcome to my official website.
       </p>
 
       <div className="flex gap-4">
-        <button className="px-6 py-3 bg-white text-black rounded-lg hover:bg-gray-200 transition">
-          About Me
-        </button>
+        <Link href="/about">
+          <button className="px-6 py-3 bg-white text-black rounded-lg hover:bg-gray-200 transition">
+            About Me
+          </button>
+        </Link>
 
         <button className="px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition">
           Projects
