@@ -1,15 +1,18 @@
 export default function Home() {
   return (
-    <main>
+    <div style={{ padding: 40 }}>
       <h1>測試圖片</h1>
 
-      <img 
+      <img
         src="/yami.png"
-        width="400"
-        height="600"
         alt="Yami"
+        style={{
+          width: "400px",
+          height: "auto",
+          border: "3px solid red"
+        }}
       />
 
-    </main>
+    </div>
   );
 }
