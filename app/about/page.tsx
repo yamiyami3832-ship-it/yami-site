@@ -24,7 +24,7 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-400 text-lg">
-            吉娃娃型 VTuber Fan Website
+            吉娃娃型 VTuber 
           </p>
 
           <a
