@@ -45,8 +45,8 @@ export default function Home() {
             <Image
               src="/yami.png"
               alt="Yami Character"
-              width={350}
-              height={717}
+              width={700}
+              height={1434}
               className="rounded-2xl shadow-2xl"
               priority
             />
